@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:neverending="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <Florismart.Neverendingview.Droid.Views.HorizontalNeverendingView
+        android:id="@+id/my_neverendingview1"
+        style="@style/Neverendingview.Horizontal"
+        neverending:enabled="true"
+        neverending:mode="natural"
+        neverending:speed="falcon"
+        neverending:frequency="10"
+        neverending:delta="2">
+        <LinearLayout
+            style="@style/NeverendingContainer.Horizontal"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/quote_one" />
+        </LinearLayout>
+    </Florismart.Neverendingview.Droid.Views.HorizontalNeverendingView>
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/start_button"
+        android:text="Start" />
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/stop_button"
+        android:text="Stop" />
+</LinearLayout>

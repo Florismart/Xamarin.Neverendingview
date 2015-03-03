@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<declare-styleable name="Neverender">
+		<attr name="mode">
+			<enum name="natural" value="0" />
+			<enum name="innatural" value="1" />
+		</attr>
+		<attr name="enabled" format="boolean" />
+		<attr name="frequency" format="integer" />
+		<attr name="delta" format="integer" />
+		<attr name="speed">
+			<enum name="falcon" value="0" />
+			<enum name="mork" value="1" />
+			<enum name="rockbiter" value="2" />
+			<enum name="morla" value="3" />
+		</attr>
+	</declare-styleable>
+</resources>
