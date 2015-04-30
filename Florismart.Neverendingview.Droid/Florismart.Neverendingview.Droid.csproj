@@ -51,6 +51,7 @@
     <Compile Include="Core\NeverendingSpeeds.cs" />
     <Compile Include="Core\NeverendingLoader.cs" />
     <Compile Include="Core\NeverendingScroillController.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -70,10 +71,10 @@
     <Folder Include="Views\" />
     <Folder Include="Core\" />
     <Folder Include="Core\Entity\" />
+    <Folder Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\values\attrs.xml" />
-    <AndroidResource Include="Resources\values\strings.xml" />
     <AndroidResource Include="Resources\values\styles.xml" />
   </ItemGroup>
 </Project>

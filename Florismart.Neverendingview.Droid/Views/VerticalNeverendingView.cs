@@ -10,7 +10,7 @@ using Android.Views;
 
 namespace Florismart.Neverendingview.Droid.Views
 {
-	public class VerticalNeverendingView : HorizontalScrollView, INeverendingScrolllable
+	public class VerticalNeverendingView : ScrollView, INeverendingScrolllable
 	{
 		private NeverendingScrollController controller;
 		public EventHandler ScrollLimitReached;
