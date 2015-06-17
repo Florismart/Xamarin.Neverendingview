@@ -15,6 +15,8 @@ you need.
 
 __2.__ Then, add Neverendingview as a dependency to your existing project.
 
+Or just include via nuget ass Florismart.Neverendingview.Droid
+
 
 XML Usage
 -----
